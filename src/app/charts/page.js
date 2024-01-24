@@ -34,7 +34,7 @@ export default function ChartsPage() {
           </div> */}
 
           <div className="p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
-            <LineChart options={LineChartOptions} series={LineChartSeries} />
+            {/* <LineChart options={LineChartOptions} series={LineChartSeries} /> */}
           </div>
         </div>
       </div>
