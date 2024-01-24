@@ -1,17 +1,17 @@
-"use client"
+"use client";
 
-import ReactApexChart from 'react-apexcharts';
+import ReactApexChart from "react-apexcharts";
 export default function LineCart({ options, series }) {
   return (
     <>
-    {typeof window !== 'undefined' &&
-    <ReactApexChart
-      options={options}
-      series={series}
-      type="line"
-      height={350}
-    />}
+      {typeof window !== "undefined" && (
+        <ReactApexChart
+          options={options}
+          series={series}
+          type="line"
+          height={350}
+        />
+      )}
     </>
-    
   );
 }

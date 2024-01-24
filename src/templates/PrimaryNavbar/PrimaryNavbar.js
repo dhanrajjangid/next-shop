@@ -33,7 +33,7 @@ const PrimaryNavbar = () => {
             <MobilePrimaryDropdown
               setToggleMainMenu={() => setToggleMainMenu(!toggleMainMenu)}
             />
-            <span className="self-center text-xl font-semibold whitespace-nowrap text-white dark:text-white">
+            <span className="self-center font-semibold whitespace-nowrap text-white dark:text-white">
               Shop Digest
             </span>
             <div className="mx-2 border-l px-2">
