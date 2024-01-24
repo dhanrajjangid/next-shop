@@ -1,3 +1,5 @@
+"use client"
+
 import ReactApexChart from "react-apexcharts";
 export default function LineCart({ options, series }) {
   return (

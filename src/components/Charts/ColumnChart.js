@@ -1,3 +1,5 @@
+"use client"
+
 import Chart from "react-apexcharts";
 export default function ColumnChart({options,series}) {
   return (

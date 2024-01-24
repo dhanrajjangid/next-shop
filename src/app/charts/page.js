@@ -1,4 +1,5 @@
 "use client";
+
 import ColumnChart from "@/components/Charts/ColumnChart";
 import IrregularChart from "@/components/Charts/IrregularChart";
 import PieChart from "@/components/Charts/PieChart";

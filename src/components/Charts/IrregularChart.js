@@ -1,3 +1,5 @@
+"use client"
+
 import Chart from "react-apexcharts";
 export default function IrregularChart({options,series}) {
   return (
