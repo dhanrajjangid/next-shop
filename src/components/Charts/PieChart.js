@@ -1,6 +1,18 @@
-"use client"
+"use client";
 
-import Chart from "react-apexcharts";
+import ReactApexChart from "react-apexcharts";
+
 export default function PieChart({ options, series }) {
-  return <Chart options={options} series={series} type="pie" width="100%" />;
+  return (
+    <>
+      {typeof window !== "undefined" && (
+        <ReactApexChart
+          options={options}
+          series={series}
+          type="pie"
+          width={380}
+        />
+      )}
+    </>
+  );
 }

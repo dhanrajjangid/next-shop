@@ -1,11 +1,5 @@
 export const LineChartOptions = {
-  chart: {
-    height: 350,
-    type: "line",
-    zoom: {
-      enabled: false,
-    },
-  },
+
   dataLabels: {
     enabled: false,
   },

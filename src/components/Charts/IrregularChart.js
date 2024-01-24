@@ -1,12 +1,12 @@
-"use client"
+"use client";
 
-import Chart from "react-apexcharts";
-export default function IrregularChart({options,series}) {
+import ReactApexChart from "react-apexcharts";
+export default function IrregularChart({ options, series }) {
   return (
-    <Chart
-      options={options}
-      series={series}
-      width="100%"
-    />
+    <>
+      {typeof window !== "undefined" && series[0]?.name && (
+        <ReactApexChart options={options} series={series} type="area" width="100%" />
+      )}
+    </>
   );
 }

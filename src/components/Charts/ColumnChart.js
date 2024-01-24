@@ -1,13 +1,14 @@
-"use client"
+"use client";
 
-import Chart from "react-apexcharts";
-export default function ColumnChart({options,series}) {
+import ReactApexChart from "react-apexcharts";
+
+export default function ColumnChart({ options, series }) {
+
   return (
-    <Chart
-      options={options}
-      series={series}
-      type="bar"
-      width="100%"
-    />
+    <>
+      {typeof window !== "undefined" && options?.xaxis?.categories?.length > 0 && (
+        <ReactApexChart options={options} series={series} type="bar" width="100%" />
+      )}
+    </>
   );
 }
