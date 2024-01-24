@@ -17,7 +17,7 @@ export default function ChartsPage() {
     <section className="bg-white dark:bg-gray-900">
       <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
         <div className="grid gap-8 lg:grid-cols-2">
-          <div className="p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+          {/* <div className="p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
             <ColumnChart
               options={ColumnChartOptions}
               series={ColumnChartSeries}
@@ -31,7 +31,7 @@ export default function ChartsPage() {
               options={IrregularChartOptions}
               series={IrregularChartSeries}
             />
-          </div>
+          </div> */}
           <div className="p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
             <LineChart options={LineChartOptions} series={LineChartSeries} />
           </div>
